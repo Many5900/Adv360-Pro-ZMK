@@ -39,36 +39,57 @@
         vim-left {
             bindings = <&kp LEFT>;
             key-positions = <66 40>;
+            timeout-ms = <50>;
+            layers = <0>;
+            require-prior-idle-ms = <50>;
         };
 
         vim-down {
             bindings = <&kp DOWN_ARROW>;
             key-positions = <66 41>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
         };
 
         vim-up {
             bindings = <&kp UP_ARROW>;
             key-positions = <66 42>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
         };
 
         vim-right {
             bindings = <&kp RIGHT_ARROW>;
             key-positions = <66 43>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
         };
 
         hyper-tab {
             bindings = <&kp TAB>;
             key-positions = <66 70>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
         };
 
         hyper-curly_brackets_open {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <66 56>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
         };
 
         hyper-curly_brackets_close {
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <66 57>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
         };
     };
 
