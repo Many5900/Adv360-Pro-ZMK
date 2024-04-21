@@ -60,6 +60,16 @@
             bindings = <&kp TAB>;
             key-positions = <66 70>;
         };
+
+        hyper-curly_brackets_open {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <66 56>;
+        };
+
+        hyper-curly_brackets_close {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <66 57>;
+        };
     };
 
     keymap {
