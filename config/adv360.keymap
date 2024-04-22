@@ -145,11 +145,11 @@
 
         code {
             bindings = <
-&trans  &trans          &trans            &trans        &trans            &trans  &trans                                                                                 &trans         &trans          &trans                &trans                 &trans            &trans         &trans
-&trans  &kp EXCL        &kp PERCENT       &kp MINUS     &kp EQUAL         &trans  &trans                                                                                 &trans         &kp SQT         &kp SLASH             &kp LEFT_BRACKET       &kp LESS_THAN     &kp DOLLAR     &trans
-&trans  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &trans  &trans  &trans                        &trans      &kp AMPERSAND  &kp DOLLAR            &trans         &kp LEFT_ARROW  &kp DOWN_ARROW        &kp UP_ARROW           &kp RIGHT_ARROW   &kp AMPERSAND  &trans
-&trans  &kp CARET       &kp HASH          &kp MINUS     &kp EQUAL         &trans                                        &trans      &kp ASTERISK                                        &kp GRAVE       &kp BACKSLASH         &kp RIGHT_BRACKET      &kp GREATER_THAN  &kp ASTRK      &trans
-&trans  &trans          &trans            &trans        &trans                    &trans  &kp LS(LA(LC(LEFT_COMMAND)))  &trans      &kp AT         &hm LEFT_SHIFT ENTER  &kp BACKSPACE                  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans            &trans         &trans
+&trans  &trans          &trans            &trans        &trans            &trans  &trans                                                                                          &trans         &trans          &trans                &trans                 &trans            &trans         &trans
+&trans  &kp EXCL        &kp PERCENT       &kp MINUS     &kp EQUAL         &trans  &trans                                                                                          &trans         &kp SQT         &kp SLASH             &kp LEFT_BRACKET       &kp LESS_THAN     &kp DOLLAR     &trans
+&trans  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &trans  &trans  &kp C_VOLUME_DOWN             &kp C_VOLUME_UP      &kp AMPERSAND  &kp DOLLAR            &trans         &kp LEFT_ARROW  &kp DOWN_ARROW        &kp UP_ARROW           &kp RIGHT_ARROW   &kp AMPERSAND  &trans
+&trans  &kp CARET       &kp HASH          &kp MINUS     &kp EQUAL         &trans                                        &kp K_MUTE           &kp ASTERISK                                        &kp GRAVE       &kp BACKSLASH         &kp RIGHT_BRACKET      &kp GREATER_THAN  &kp ASTRK      &trans
+&trans  &trans          &trans            &trans        &trans                    &trans  &kp LS(LA(LC(LEFT_COMMAND)))  &trans               &kp AT         &hm LEFT_SHIFT ENTER  &kp BACKSPACE                  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans            &trans         &trans
             >;
         };
 
