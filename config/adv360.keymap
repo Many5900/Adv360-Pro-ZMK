@@ -157,7 +157,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                &trans     &trans  &trans         &trans   &trans            &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                &trans     &trans  &trans         &trans   &trans            &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans            &trans     &trans  &kp SEMICOLON  &kp SQT  &kp LEFT_BRACKET  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp SPACE         &trans     &trans  &kp SEMICOLON  &kp SQT  &kp LEFT_BRACKET  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                               &trans  &trans         &trans   &trans            &trans  &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &kp LEFT_CONTROL  &kp SPACE          &trans         &trans   &trans            &trans  &trans
             >;
