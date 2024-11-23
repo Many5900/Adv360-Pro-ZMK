@@ -105,11 +105,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 1                                                                                                      &mo 3          &kp N6  &kp N7    &kp N8   &kp N9     &kp N0    &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                                                                       &none          &kp Y   &kp U     &kp I    &kp O      &kp P     &kp BSLH
-&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none        &kp LEFT_ALT  &mo 5                             &to 1                    &kp RCTRL             &none          &kp H   &kp J     &kp K    &kp L      &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                              &kp LS(LA(LC(LEFT_COMMAND)))      &hm LEFT_ALT EQUAL                                            &kp N   &kp M     &kp DOT  &kp COMMA  &kp FSLH  &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &lt 4 SPACE  &lt 1 TAB     &hm LEFT_CONTROL MINUS            &hm LEFT_COMMAND ESCAPE  &hm LEFT_SHIFT ENTER  &kp BACKSPACE          &kp DOWN  &kp UP   &kp LBKT   &kp RBKT  &mo 2
+&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 1                                                                                                 &mo 3          &kp N6  &kp N7    &kp N8     &kp N9    &kp N0    &kp MINUS
+&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                                                                  &none          &kp Y   &kp U     &kp I      &kp O     &kp P     &kp BSLH
+&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none        &kp APOSTROPHE      &mo 5                   &to 1                  &kp DOUBLE_QUOTES      &none          &kp H   &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                                    &kp MINUS               &hm LEFT_COMMAND PLUS                                        &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &lt 4 SPACE  &hm LEFT_SHIFT TAB  &lt 1 LEFT_CONTROL      &hm LEFT_ALT ESCAPE    &hm RIGHT_SHIFT ENTER  &kp BACKSPACE          &kp DOWN  &kp UP     &kp LBKT  &kp RBKT  &mo 2
             >;
         };
 
@@ -145,11 +145,11 @@
 
         code {
             bindings = <
-&trans  &trans          &trans            &trans        &trans            &trans  &trans                                                                                          &trans         &trans          &trans                &trans                 &trans            &trans         &trans
-&trans  &kp EXCL        &kp PERCENT       &kp MINUS     &kp EQUAL         &trans  &trans                                                                                          &trans         &kp SQT         &kp SLASH             &kp LEFT_BRACKET       &kp LESS_THAN     &kp DOLLAR     &trans
-&trans  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &trans  &trans  &kp C_VOLUME_DOWN             &kp C_VOLUME_UP      &kp AMPERSAND  &kp DOLLAR            &trans         &kp LEFT_ARROW  &kp DOWN_ARROW        &kp UP_ARROW           &kp RIGHT_ARROW   &kp AMPERSAND  &trans
-&trans  &kp CARET       &kp HASH          &kp MINUS     &kp EQUAL         &trans                                        &kp C_MUTE           &kp ASTERISK                                        &kp GRAVE       &kp BACKSLASH         &kp RIGHT_BRACKET      &kp GREATER_THAN  &kp ASTRK      &trans
-&trans  &trans          &trans            &trans        &trans                    &trans  &kp LS(LA(LC(LEFT_COMMAND)))  &trans               &kp AT         &hm LEFT_SHIFT ENTER  &kp BACKSPACE                  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans            &trans         &trans
+&trans  &trans     &trans         &trans            &trans             &trans       &trans                                                                                           &trans         &trans     &trans          &trans            &trans                &trans                 &trans
+&trans  &kp KP_N1  &kp KP_N2      &kp KP_N3         &kp KP_N4          &kp KP_N5    &trans                                                                                           &trans         &kp KP_N6  &kp KP_N7       &kp KP_N8         &kp KP_N9             &kp KP_N0              &trans
+&trans  &kp EXCL   &kp AT         &kp HASH          &kp DOLLAR         &kp PERCENT  &trans  &kp C_VOLUME_DOWN             &kp C_VOLUME_UP       &kp MINUS      &kp PLUS              &trans         &kp CARET  &kp AMPS        &kp STAR          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &kp PIPE   &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE                                          &kp C_MUTE            &kp LESS_THAN                                       &kp GRAVE  &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp SLASH             &kp APOSTROPHE         &trans
+&trans  &trans     &trans         &kp LESS_THAN     &kp MINUS                       &trans  &kp LS(LA(LC(LEFT_COMMAND)))  &kp LEFT_CONTROL      &kp EQUAL      &hm LEFT_SHIFT ENTER  &kp BACKSPACE             &kp PLUS        &kp GREATER_THAN  &trans                &trans                 &trans
             >;
         };
 
